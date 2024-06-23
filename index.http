@@ -1,0 +1,27 @@
+GET http://localhost:5000/courses
+
+###
+
+GET http://localhost:5000/courses/1
+
+###
+
+POST http://localhost:5000/courses
+content-type: application/json
+
+{
+    "title": "hr"
+}
+
+###
+
+DELETE  http://localhost:5000/courses/1
+
+###
+
+PUT  http://localhost:5000/courses/1 
+content-type: application/json
+
+{
+    "title": "new frontend"
+}
